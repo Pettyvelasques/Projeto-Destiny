@@ -1,0 +1,178 @@
+* {
+  font-family: "Josefin Sans";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: #777;
+}
+body a {
+  color: #777;
+  transition: 0.4s;
+}
+body ul {
+  list-style: none;
+}
+
+.header {
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-container-brand {
+  color: #ad673c;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.header-container-navbar ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container-navbar ul li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.header-container-navbar ul li .active {
+  text-decoration: underline;
+}
+.header-container-navbar ul li a:hover {
+  color: #ad673c;
+}
+.header-social-media {
+  display: flex;
+  flex-direction: left;
+  margin-top: 0.5rem;
+}
+.header-social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.header-social-media ul li {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+.header-social-media ul li a {
+  padding: 0 0.4rem;
+}
+.header-social-media ul li a:hover {
+  color: #ad673c;
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.gallery {
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  padding: 0;
+}
+.gallery-regioes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery-regioes-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 31%;
+  height: 400px;
+  margin-bottom: 4%;
+  border: 2px solid #777;
+  transition: 0.6s;
+}
+.gallery-regioes-card:hover {
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.gallery-regioes-card img {
+  width: 90%;
+  height: 280px;
+}
+.gallery-regioes-card #card-1 {
+  background-image: url("../img/norte.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-regioes-card #card-2 {
+  background-image: url("../img/nordeste.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-regioes-card #card-3 {
+  background-image: url("../img/centro-oeste.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-regioes-card #card-4 {
+  background-image: url("../img/sudeste.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-regioes-card #card-5 {
+  background-image: url("../img/sul.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-regioes-card-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.gallery-regioes-card-container-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 2rem 0 0;
+}
+.gallery-regioes-card-container-btn {
+  padding: 0.6rem 0.2rem;
+  border: 2px solid #ad673c;
+  color: #ad673c;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.gallery-regioes-card-container-btn:hover {
+  background-color: #ad673c;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+footer p span {
+  font-weight: 600;
+  color: #ad673c;
+}
+
+/*# sourceMappingURL=styles.css.map */
